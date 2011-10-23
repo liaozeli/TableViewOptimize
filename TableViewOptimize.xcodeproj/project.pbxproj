@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5A4B1E91454074800D192A1 /* Front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5A4B1E71454074800D192A1 /* Front.jpg */; };
+		A5A4B1EA1454074800D192A1 /* j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5A4B1E81454074800D192A1 /* j.jpg */; };
+		A5C5BCB61453B67000D311CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C5BCB51453B67000D311CD /* UIKit.framework */; };
+		A5C5BCB81453B67000D311CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C5BCB71453B67000D311CD /* Foundation.framework */; };
+		A5C5BCBA1453B67000D311CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C5BCB91453B67000D311CD /* CoreGraphics.framework */; };
+		A5C5BCC01453B67000D311CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5C5BCBE1453B67000D311CD /* InfoPlist.strings */; };
+		A5C5BCC21453B67000D311CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCC11453B67000D311CD /* main.m */; };
+		A5C5BCC61453B67000D311CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCC51453B67000D311CD /* AppDelegate.m */; };
+		A5C5BCCE1453B6DA00D311CD /* TFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCCD1453B6DA00D311CD /* TFTableViewController.m */; };
+		A5C5BCDC1453BB8200D311CD /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCDB1453BB8200D311CD /* CustomTableCell.m */; };
+		A5C5BCE41453C58900D311CD /* OptimizeTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */; };
+		A5C5BCE71453C5DC00D311CD /* OptimizeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5A4B1E71454074800D192A1 /* Front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Front.jpg; path = ../../../../../Users/jimmyliao/project/TableViewOptimize/TableViewOptimize/Resource/Front.jpg; sourceTree = "<group>"; };
+		A5A4B1E81454074800D192A1 /* j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = j.jpg; path = ../../../../../Users/jimmyliao/project/TableViewOptimize/TableViewOptimize/Resource/j.jpg; sourceTree = "<group>"; };
+		A5C5BCB11453B67000D311CD /* TableViewOptimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewOptimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C5BCB51453B67000D311CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5C5BCB71453B67000D311CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5C5BCB91453B67000D311CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5C5BCBD1453B67000D311CD /* TableViewOptimize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewOptimize-Info.plist"; sourceTree = "<group>"; };
+		A5C5BCBF1453B67000D311CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5C5BCC11453B67000D311CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5C5BCC31453B67000D311CD /* TableViewOptimize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewOptimize-Prefix.pch"; sourceTree = "<group>"; };
+		A5C5BCC41453B67000D311CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5C5BCC51453B67000D311CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5C5BCCC1453B6DA00D311CD /* TFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTableViewController.h; sourceTree = "<group>"; };
+		A5C5BCCD1453B6DA00D311CD /* TFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewController.m; sourceTree = "<group>"; };
+		A5C5BCDA1453BB8200D311CD /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		A5C5BCDB1453BB8200D311CD /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		A5C5BCE21453C58900D311CD /* OptimizeTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCellView.h; sourceTree = "<group>"; };
+		A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCellView.m; sourceTree = "<group>"; };
+		A5C5BCE51453C5DB00D311CD /* OptimizeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCell.h; sourceTree = "<group>"; };
+		A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C5BCAE1453B67000D311CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C5BCB61453B67000D311CD /* UIKit.framework in Frameworks */,
+				A5C5BCB81453B67000D311CD /* Foundation.framework in Frameworks */,
+				A5C5BCBA1453B67000D311CD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5A4B1E61454073500D192A1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4B1E71454074800D192A1 /* Front.jpg */,
+				A5A4B1E81454074800D192A1 /* j.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A5C5BCA61453B67000D311CD = {
+			isa = PBXGroup;
+			children = (
+				A5C5BCBB1453B67000D311CD /* TableViewOptimize */,
+				A5C5BCB41453B67000D311CD /* Frameworks */,
+				A5C5BCB21453B67000D311CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C5BCB21453B67000D311CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5BCB11453B67000D311CD /* TableViewOptimize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C5BCB41453B67000D311CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5BCB51453B67000D311CD /* UIKit.framework */,
+				A5C5BCB71453B67000D311CD /* Foundation.framework */,
+				A5C5BCB91453B67000D311CD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C5BCBB1453B67000D311CD /* TableViewOptimize */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5BCE81453C8C300D311CD /* OptimizeTableCell */,
+				A5C5BCC41453B67000D311CD /* AppDelegate.h */,
+				A5C5BCC51453B67000D311CD /* AppDelegate.m */,
+				A5C5BCCC1453B6DA00D311CD /* TFTableViewController.h */,
+				A5C5BCCD1453B6DA00D311CD /* TFTableViewController.m */,
+				A5C5BCDA1453BB8200D311CD /* CustomTableCell.h */,
+				A5C5BCDB1453BB8200D311CD /* CustomTableCell.m */,
+				A5C5BCBC1453B67000D311CD /* Supporting Files */,
+			);
+			path = TableViewOptimize;
+			sourceTree = "<group>";
+		};
+		A5C5BCBC1453B67000D311CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4B1E61454073500D192A1 /* Resource */,
+				A5C5BCBD1453B67000D311CD /* TableViewOptimize-Info.plist */,
+				A5C5BCBE1453B67000D311CD /* InfoPlist.strings */,
+				A5C5BCC11453B67000D311CD /* main.m */,
+				A5C5BCC31453B67000D311CD /* TableViewOptimize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5C5BCE81453C8C300D311CD /* OptimizeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A5C5BCE21453C58900D311CD /* OptimizeTableCellView.h */,
+				A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */,
+				A5C5BCE51453C5DB00D311CD /* OptimizeTableCell.h */,
+				A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */,
+			);
+			name = OptimizeTableCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C5BCB01453B67000D311CD /* TableViewOptimize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C5BCC91453B67000D311CD /* Build configuration list for PBXNativeTarget "TableViewOptimize" */;
+			buildPhases = (
+				A5C5BCAD1453B67000D311CD /* Sources */,
+				A5C5BCAE1453B67000D311CD /* Frameworks */,
+				A5C5BCAF1453B67000D311CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewOptimize;
+			productName = TableViewOptimize;
+			productReference = A5C5BCB11453B67000D311CD /* TableViewOptimize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C5BCA81453B67000D311CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "TwinFish Technology Co.Ltd";
+			};
+			buildConfigurationList = A5C5BCAB1453B67000D311CD /* Build configuration list for PBXProject "TableViewOptimize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5C5BCA61453B67000D311CD;
+			productRefGroup = A5C5BCB21453B67000D311CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C5BCB01453B67000D311CD /* TableViewOptimize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C5BCAF1453B67000D311CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C5BCC01453B67000D311CD /* InfoPlist.strings in Resources */,
+				A5A4B1E91454074800D192A1 /* Front.jpg in Resources */,
+				A5A4B1EA1454074800D192A1 /* j.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C5BCAD1453B67000D311CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C5BCC21453B67000D311CD /* main.m in Sources */,
+				A5C5BCC61453B67000D311CD /* AppDelegate.m in Sources */,
+				A5C5BCCE1453B6DA00D311CD /* TFTableViewController.m in Sources */,
+				A5C5BCDC1453BB8200D311CD /* CustomTableCell.m in Sources */,
+				A5C5BCE41453C58900D311CD /* OptimizeTableCellView.m in Sources */,
+				A5C5BCE71453C5DC00D311CD /* OptimizeTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5C5BCBE1453B67000D311CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C5BCBF1453B67000D311CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C5BCC71453B67000D311CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5C5BCC81453B67000D311CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C5BCCA1453B67000D311CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewOptimize/TableViewOptimize-Prefix.pch";
+				INFOPLIST_FILE = "TableViewOptimize/TableViewOptimize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5C5BCCB1453B67000D311CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewOptimize/TableViewOptimize-Prefix.pch";
+				INFOPLIST_FILE = "TableViewOptimize/TableViewOptimize-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C5BCAB1453B67000D311CD /* Build configuration list for PBXProject "TableViewOptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C5BCC71453B67000D311CD /* Debug */,
+				A5C5BCC81453B67000D311CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C5BCC91453B67000D311CD /* Build configuration list for PBXNativeTarget "TableViewOptimize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C5BCCA1453B67000D311CD /* Debug */,
+				A5C5BCCB1453B67000D311CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C5BCA81453B67000D311CD /* Project object */;
+}
