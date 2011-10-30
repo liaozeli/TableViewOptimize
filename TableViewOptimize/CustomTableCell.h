@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "OptimizeTableCell.h"
+#import "OptimizeLabel.h"
+#import "OptimizeImageView.h"
 
 @interface CustomTableCell : OptimizeTableCell {
-    UIImage *cellImage1_;
-    UIImage *cellImage2_;
-    NSString *cellTitle_;
+    OptimizeImageView *cellImage1_;
+    OptimizeImageView *cellImage2_;
+    OptimizeLabel *cellTitle_;
 }
 
-@property (nonatomic, strong) UIImage *cellImage1;
-@property (nonatomic, strong) UIImage *cellImage2;
-@property (nonatomic, copy) NSString *cellTitle;
+@property (nonatomic, strong) OptimizeImageView *cellImage1;
+@property (nonatomic, strong) OptimizeImageView *cellImage2;
+@property (nonatomic, strong) OptimizeLabel *cellTitle;
 
 @end

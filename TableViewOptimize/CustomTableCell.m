@@ -16,23 +16,25 @@
 
 - (void)drawContentView:(CGRect)rect 
 {
-    CGContextRef context = UIGraphicsGetCurrentContext();
     UIColor *backgroundColor = [UIColor clearColor];
     [backgroundColor set];
-    CGContextFillRect(context, rect);
-    cellImage1_ = [UIImage imageNamed:@"j.jpg"];
-    
-    [cellImage1_ drawInRect:CGRectMake(10, 7, 30, 30)];
-    cellImage2_ = [UIImage imageNamed:@"Front.jpg"];
-    [cellImage2_ drawInRect:CGRectMake(50, 7, 30, 30)];
-    
-    [cellImage1_ drawInRect:CGRectMake(100, 7, 30, 30)];
-    [cellImage2_ drawInRect:CGRectMake(150, 7, 30, 30)];
-    
-    UIColor *textColor = [UIColor blackColor];
-    [textColor set];
-    cellTitle_ = @"Twin-Fish Tech";
-    [cellTitle_ drawAtPoint:CGPointMake(200, 7) forWidth:120.0f withFont:[UIFont systemFontOfSize:16.0f] lineBreakMode:UILineBreakModeWordWrap];
+}
+
+- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        cellImage1_ = [[OptimizeImageView alloc] initWithFrame:CGRectMake(10, 7, 30, 30)];
+        cellImage1_.image = [UIImage imageNamed:@"j.jpg"];
+        cellImage2_ = [[OptimizeImageView alloc] initWithFrame:CGRectMake(50, 7, 30, 30)];
+        cellImage2_.image = [UIImage imageNamed:@"Front.jpg"];
+        cellTitle_ = [[OptimizeLabel alloc] initWithFrame:CGRectMake(200, 0, 100, 30)];
+        cellTitle_.text = @"Twin-Fish Tech";
+        cellTitle_.font = [UIFont systemFontOfSize:14];
+        [self addSubview:cellTitle_];
+        [self addSubview:cellImage1_];
+        [self addSubview:cellImage2_];
+    }
+    return self;
 }
 
 @end

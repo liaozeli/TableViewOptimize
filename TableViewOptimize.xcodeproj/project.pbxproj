@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A526E9F5145D458C00AC0606 /* OptimizeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A526E9EE145D458C00AC0606 /* OptimizeImageView.m */; };
+		A526E9F6145D458C00AC0606 /* OptimizeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A526E9F0145D458C00AC0606 /* OptimizeLabel.m */; };
+		A526E9F7145D458C00AC0606 /* OptimizeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A526E9F2145D458C00AC0606 /* OptimizeTableCell.m */; };
+		A526E9F8145D458C00AC0606 /* OptimizeTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A526E9F4145D458C00AC0606 /* OptimizeTableCellView.m */; };
+		A526E9FE145D4D3800AC0606 /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A526E9FD145D4D3800AC0606 /* NSStringAdditions.m */; };
 		A5A4B1E91454074800D192A1 /* Front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5A4B1E71454074800D192A1 /* Front.jpg */; };
 		A5A4B1EA1454074800D192A1 /* j.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5A4B1E81454074800D192A1 /* j.jpg */; };
 		A5C5BCB61453B67000D311CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C5BCB51453B67000D311CD /* UIKit.framework */; };
@@ -17,11 +22,19 @@
 		A5C5BCC61453B67000D311CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCC51453B67000D311CD /* AppDelegate.m */; };
 		A5C5BCCE1453B6DA00D311CD /* TFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCCD1453B6DA00D311CD /* TFTableViewController.m */; };
 		A5C5BCDC1453BB8200D311CD /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCDB1453BB8200D311CD /* CustomTableCell.m */; };
-		A5C5BCE41453C58900D311CD /* OptimizeTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */; };
-		A5C5BCE71453C5DC00D311CD /* OptimizeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A526E9ED145D458C00AC0606 /* OptimizeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeImageView.h; sourceTree = "<group>"; };
+		A526E9EE145D458C00AC0606 /* OptimizeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeImageView.m; sourceTree = "<group>"; };
+		A526E9EF145D458C00AC0606 /* OptimizeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeLabel.h; sourceTree = "<group>"; };
+		A526E9F0145D458C00AC0606 /* OptimizeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeLabel.m; sourceTree = "<group>"; };
+		A526E9F1145D458C00AC0606 /* OptimizeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCell.h; sourceTree = "<group>"; };
+		A526E9F2145D458C00AC0606 /* OptimizeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCell.m; sourceTree = "<group>"; };
+		A526E9F3145D458C00AC0606 /* OptimizeTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCellView.h; sourceTree = "<group>"; };
+		A526E9F4145D458C00AC0606 /* OptimizeTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCellView.m; sourceTree = "<group>"; };
+		A526E9FC145D4D3800AC0606 /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringAdditions.h; sourceTree = "<group>"; };
+		A526E9FD145D4D3800AC0606 /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringAdditions.m; sourceTree = "<group>"; };
 		A5A4B1E71454074800D192A1 /* Front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Front.jpg; path = ../../../../../Users/jimmyliao/project/TableViewOptimize/TableViewOptimize/Resource/Front.jpg; sourceTree = "<group>"; };
 		A5A4B1E81454074800D192A1 /* j.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = j.jpg; path = ../../../../../Users/jimmyliao/project/TableViewOptimize/TableViewOptimize/Resource/j.jpg; sourceTree = "<group>"; };
 		A5C5BCB11453B67000D311CD /* TableViewOptimize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewOptimize.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,10 +51,6 @@
 		A5C5BCCD1453B6DA00D311CD /* TFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTableViewController.m; sourceTree = "<group>"; };
 		A5C5BCDA1453BB8200D311CD /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		A5C5BCDB1453BB8200D311CD /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
-		A5C5BCE21453C58900D311CD /* OptimizeTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCellView.h; sourceTree = "<group>"; };
-		A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCellView.m; sourceTree = "<group>"; };
-		A5C5BCE51453C5DB00D311CD /* OptimizeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptimizeTableCell.h; sourceTree = "<group>"; };
-		A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptimizeTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A526E9EC145D458C00AC0606 /* JOptimize */ = {
+			isa = PBXGroup;
+			children = (
+				A526E9FC145D4D3800AC0606 /* NSStringAdditions.h */,
+				A526E9FD145D4D3800AC0606 /* NSStringAdditions.m */,
+				A526E9ED145D458C00AC0606 /* OptimizeImageView.h */,
+				A526E9EE145D458C00AC0606 /* OptimizeImageView.m */,
+				A526E9EF145D458C00AC0606 /* OptimizeLabel.h */,
+				A526E9F0145D458C00AC0606 /* OptimizeLabel.m */,
+				A526E9F1145D458C00AC0606 /* OptimizeTableCell.h */,
+				A526E9F2145D458C00AC0606 /* OptimizeTableCell.m */,
+				A526E9F3145D458C00AC0606 /* OptimizeTableCellView.h */,
+				A526E9F4145D458C00AC0606 /* OptimizeTableCellView.m */,
+			);
+			name = JOptimize;
+			path = ../../../../../Users/jimmyliao/project/TableViewOptimize/TableViewOptimize/JOptimize;
+			sourceTree = "<group>";
+		};
 		A5A4B1E61454073500D192A1 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +124,7 @@
 		A5C5BCBB1453B67000D311CD /* TableViewOptimize */ = {
 			isa = PBXGroup;
 			children = (
-				A5C5BCE81453C8C300D311CD /* OptimizeTableCell */,
+				A526E9EC145D458C00AC0606 /* JOptimize */,
 				A5C5BCC41453B67000D311CD /* AppDelegate.h */,
 				A5C5BCC51453B67000D311CD /* AppDelegate.m */,
 				A5C5BCCC1453B6DA00D311CD /* TFTableViewController.h */,
@@ -119,17 +146,6 @@
 				A5C5BCC31453B67000D311CD /* TableViewOptimize-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A5C5BCE81453C8C300D311CD /* OptimizeTableCell */ = {
-			isa = PBXGroup;
-			children = (
-				A5C5BCE21453C58900D311CD /* OptimizeTableCellView.h */,
-				A5C5BCE31453C58900D311CD /* OptimizeTableCellView.m */,
-				A5C5BCE51453C5DB00D311CD /* OptimizeTableCell.h */,
-				A5C5BCE61453C5DB00D311CD /* OptimizeTableCell.m */,
-			);
-			name = OptimizeTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +216,11 @@
 				A5C5BCC61453B67000D311CD /* AppDelegate.m in Sources */,
 				A5C5BCCE1453B6DA00D311CD /* TFTableViewController.m in Sources */,
 				A5C5BCDC1453BB8200D311CD /* CustomTableCell.m in Sources */,
-				A5C5BCE41453C58900D311CD /* OptimizeTableCellView.m in Sources */,
-				A5C5BCE71453C5DC00D311CD /* OptimizeTableCell.m in Sources */,
+				A526E9F5145D458C00AC0606 /* OptimizeImageView.m in Sources */,
+				A526E9F6145D458C00AC0606 /* OptimizeLabel.m in Sources */,
+				A526E9F7145D458C00AC0606 /* OptimizeTableCell.m in Sources */,
+				A526E9F8145D458C00AC0606 /* OptimizeTableCellView.m in Sources */,
+				A526E9FE145D4D3800AC0606 /* NSStringAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
