@@ -1,8 +1,8 @@
 //
 //  OptimizeImageView.m
-//  YDSC
+//  OptimizeTableView
 //
-//  Created by lu ddong on 10/26/11.
+//  Created by jimmy liao on 10/26/11.
 //  Copyright 2011 TwinFish Technology Co., Ltd. All rights reserved.
 //
 
