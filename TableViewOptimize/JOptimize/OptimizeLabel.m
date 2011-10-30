@@ -1,6 +1,6 @@
 //
 //  OptimizeLabel.m
-//  YDSC
+//  TableViewOptimize
 //
 //  Created by jimmy liao on 10/25/11.
 //  Copyright 2011 TwinFish Technology Co., Ltd. All rights reserved.
