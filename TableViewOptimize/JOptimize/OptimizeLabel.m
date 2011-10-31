@@ -80,7 +80,7 @@
     if (!text_) {
         return;
     }
-    [[UIColor blackColor] setFill];
+    [textColor_ setFill];
     [text_ drawInRect:rect withFont:font_ lineBreakMode:UILineBreakModeCharacterWrap alignment:textAlignment_];
 }
 
